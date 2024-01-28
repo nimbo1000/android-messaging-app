@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="message_outcoming_bubble_margin_left">380dp</dimen>
+
+</resources>

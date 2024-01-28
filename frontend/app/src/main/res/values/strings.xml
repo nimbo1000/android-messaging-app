@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">chatapp</string>
+    <string name="hint_enter_a_message">Type Message</string>
+
+    <string-array name="view_types_dialog">
+        <item name="gallery">Gallery</item>
+        <item name="camera">Camera</item>
+    </string-array>
+    <string-array name="download_types_dialog">
+        <item name="full">Full</item>
+        <item name="high">High</item>
+        <item name="low">Low</item>
+
+    </string-array>
+    <string name="title_activity_search_users">SearchUsersActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="user_registration">User Registration</string>
+</resources>

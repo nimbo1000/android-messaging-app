@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "167043473586",
+    "firebase_url": "https://mcc-fall-2018-g15.firebaseio.com",
+    "project_id": "mcc-fall-2018-g15",
+    "storage_bucket": "mcc-fall-2018-g15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167043473586:android:3f0d5058dd111e85",
+        "android_client_info": {
+          "package_name": "mcc_2018_g15.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167043473586-j45khi36reb16tbt0blfncnoenqldpac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2DgyqaSihcB4ssOCOOBzNft8-cycD6U8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

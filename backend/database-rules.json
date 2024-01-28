@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "users": {
+      "$user_id": {
+        ".write": "$user_id === auth.uid",
+        ".read": "$user_id === auth.uid",
+      }
+    },
+    "chats": {
+      "$chatId": {
+        ".read": "data.child('users').hasChild(auth.uid)",
+        ".write": "data.child('users').hasChild(auth.uid)",
+	    }
+    },
+    "chat_msgs": {
+      "$chatId": {
+        ".read": "root.child('chats').child($chatId).child('users').hasChild(auth.uid)",
+        ".write": "root.child('chats').child($chatId).child('users').hasChild(auth.uid)",
+      }
+    },
+    "image_urls": {
+      "$chatId": {
+        ".read": "root.child('chats').child($chatId).child('users').hasChild(auth.uid)",
+        ".write": "root.child('chats').child($chatId).child('users').hasChild(auth.uid)",
+      }
+    }
+  }
+}

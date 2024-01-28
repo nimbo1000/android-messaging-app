@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MessageActivity">
+    <item
+        android:id="@+id/menu_gallery"
+        android:orderInCategory="100"
+        android:actionLayout="@id/toolbar"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/menu_addMember"
+        android:orderInCategory="200"
+        android:actionLayout="@id/toolbar"
+        android:title="Add Member" />
+    <item
+        android:id="@+id/menu_leaveChat"
+        android:orderInCategory="300"
+        android:actionLayout="@id/toolbar"
+        android:title="Leave Chat" />
+    <item
+        android:id="@+id/menu_editGroup"
+        android:orderInCategory="200"
+        android:actionLayout="@id/toolbar"
+        android:title="Edit Group"/>
+
+</menu>
